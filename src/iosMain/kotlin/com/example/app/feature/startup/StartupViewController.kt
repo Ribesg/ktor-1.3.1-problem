@@ -13,7 +13,7 @@ class StartupViewController : UIViewController(null, null) {
 
     override fun viewDidLoad() {
         super.viewDidLoad()
-        featureView = StartupView(this)
+        featureView = StartupView(this, view as StartupUIView)
     }
 
 }
